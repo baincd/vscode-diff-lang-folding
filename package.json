@@ -13,7 +13,7 @@
         "languages": [{
             "id": "diff",
             "aliases": ["Diff (improved)", "diff"],
-            "extensions": [".diff .patch .rej"],
+            "extensions": [".diff", ".patch", ".rej"],
             "configuration": "./language-configuration.json"
         }]
     }
