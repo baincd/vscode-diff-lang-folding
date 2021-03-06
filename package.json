@@ -15,11 +15,6 @@
             "aliases": ["Diff (improved)", "diff"],
             "extensions": [".diff .patch .rej"],
             "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "diff",
-            "scopeName": "source.diff",
-            "path": "./syntaxes/diff.tmLanguage.json"
         }]
     }
 }
