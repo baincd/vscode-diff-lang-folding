@@ -1,0 +1,25 @@
+{
+    "name": "diff-lang-improved",
+    "displayName": "diff-lang-improved",
+    "description": "Improvement on diff language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "diff",
+            "aliases": ["Diff (improved)", "diff"],
+            "extensions": [".diff .patch .rej"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "diff",
+            "scopeName": "source.diff",
+            "path": "./syntaxes/diff.tmLanguage.json"
+        }]
+    }
+}
