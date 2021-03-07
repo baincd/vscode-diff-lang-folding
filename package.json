@@ -15,7 +15,8 @@
         "Programming Languages"
     ],
     "activationEvents": [
-        "onLanguage:diff"
+        "onLanguage:diff",
+        "onLanguage:git-commit"
     ],
     "main": "./out/diff-improved-extension.js",
     "scripts": {
