@@ -1,10 +1,10 @@
-# Diff Language (Improved)
+# Diff Language Folding
 
-diff-lang-improved provides enhancements to vscode diff language
+Logical code folding for Diff language.  
+
+Also works on Git Commit Message language (when git configuration commit.verbose=true)
 
 ## Features
-
-Add logical folding to the Diff language
 
 ![example](example.png)
 
@@ -12,18 +12,15 @@ Add logical folding to the Diff language
 
 This has been tested in vscode 1.50.1.  It may work in earlier versions as well, but YMMV.
 
-## Diff Colors Recommendation
+## Other Helpful Diff Tricks
 
-This extension does *not* add/modify colorization of Diff files.  
+*This extension does **not** add or modify colorization of Diff files.  This section is provided only as a friendly suggestion to improve your diff language experience.  These settings are not used by this extension, and can be applied without this extension installed*
 
-However, I do recommend adding the following to your settings.json (modifying the colors to your liking) to improve the colorization of Diff files.  These colors work in both light and dark themes.
-
-*This extension is not required for these settings to work.  This is provided as a friendly suggestion to improve your diff language experience*
+I recommend adding the following to your settings.json (modifying the colors to your liking) to improve the colorization of Diff files.  These colors work in both light and dark themes.
 
 ```json
     "editor.tokenColorCustomizations": {
         "textMateRules": [
-            // Colorize diff files
             {
                 "scope": "meta.diff",
                 "settings": {
@@ -53,7 +50,7 @@ However, I do recommend adding the following to your settings.json (modifying th
     }
 ```
 
-If you want to use different colors for different themes, this can be achieved by using the following:
+You can also configure different colors for different themes.  To do this, change the settings as follows:
 
 ```json
     "editor.tokenColorCustomizations": {

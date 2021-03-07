@@ -1,11 +1,11 @@
 {
     "publisher": "baincd",
-    "name": "diff-lang-improved",
-    "displayName": "Diff Language (Improved)",
-    "description": "Improvements on diff language",
-    "version": "1.1.1",
+    "name": "diff-lang-folding",
+    "displayName": "Diff Folding",
+    "description": "Logical code folding for Diff language",
+    "version": "1.2.0",
     "repository": {
-        "url": "https://github.com/baincd/vscode-diff-lang-improved"
+        "url": "https://github.com/baincd/vscode-diff-lang-folding"
     },
     "license": "MIT",
     "engines": {
@@ -18,7 +18,7 @@
         "onLanguage:diff",
         "onLanguage:git-commit"
     ],
-    "main": "./out/diff-improved-extension.js",
+    "main": "./out/diff-lang-folding.js",
     "scripts": {
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
