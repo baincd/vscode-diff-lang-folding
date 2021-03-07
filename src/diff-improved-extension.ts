@@ -45,8 +45,13 @@ class DiffFoldingRangeProvider implements vscode.FoldingRangeProvider {
 
 export function activate(context: vscode.ExtensionContext) {
     let DIFF:vscode.DocumentSelector = { language: 'diff' };
+    let GIT_COMMIT:vscode.DocumentSelector = { language: 'git-commit'}; // Used when the git config commit.verbose = true
 
     context.subscriptions.push(
         vscode.languages.registerFoldingRangeProvider(
             DIFF, new DiffFoldingRangeProvider()));
+
+    context.subscriptions.push(
+        vscode.languages.registerFoldingRangeProvider(
+            GIT_COMMIT, new DiffFoldingRangeProvider()));
 }
