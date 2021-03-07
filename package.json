@@ -14,6 +14,32 @@
         "onLanguage:diff"
     ],
     "main": "./out/diff-improved-extension.js",
+    "COMMENTS" : [
+        "https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#semantic-token-scope-map",
+        "https://code.visualstudio.com/api/references/contribution-points"
+    ],
+    "contributes": {
+        "languages": [
+          {
+            "id": "diff",
+            "extensions": [
+              ".diff", ".patch", ".rej"
+            ],
+            "aliases": [
+              "Diff (Improved)"
+            ]
+          }
+        ],
+        "semanticTokenScopes": [
+            {
+                "language": "diff",
+                "scopes": {
+                    "type": ["meta.diff.header.git"],
+                    "function": ["meta.diff.range.unified"]
+                }
+            }
+        ]
+      },
     "scripts": {
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
