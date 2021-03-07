@@ -3,7 +3,7 @@
     "name": "diff-lang-improved",
     "displayName": "Diff Language (Improved)",
     "description": "Improvements on diff language",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "repository": {
         "url": "https://github.com/baincd/vscode-diff-lang-improved"
     },
