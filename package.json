@@ -1,11 +1,15 @@
 {
     "publisher": "baincd",
     "name": "diff-lang-improved",
-    "displayName": "diff-lang-improved",
+    "displayName": "Diff Language (Improved)",
     "description": "Improvement on diff language",
-    "version": "0.0.1",
+    "version": "1.0.0",
+    "repository": {
+        "url": "https://github.com/baincd/vscode-diff-lang-improved"
+    },
+    "license": "MIT",
     "engines": {
-        "vscode": "^1.54.0"
+        "vscode": "^1.50.0"
     },
     "categories": [
         "Programming Languages"
