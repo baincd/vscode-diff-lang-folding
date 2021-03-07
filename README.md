@@ -4,7 +4,7 @@ diff-lang-improved provides enhancements to vscode diff language
 
 ## Features
 
-Add logical folding to Diff files
+Add logical folding to the Diff language
 
 ![example](example.png)
 
@@ -62,9 +62,3 @@ If you want to use different colors for different themes, this can be achieved b
         }
     }
 ```
-
-## Release Notes
-
-### 1.0.0
-
-Initial release of Diff Language (Improved)
