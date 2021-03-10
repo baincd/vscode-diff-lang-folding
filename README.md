@@ -8,10 +8,6 @@ Also works on Git Commit Message language (when git configuration commit.verbose
 
 ![example](example.png)
 
-## Requirements
-
-This has been tested in vscode 1.50.1.  It may work in earlier versions as well, but YMMV.
-
 ## Other Helpful Diff Tricks
 
 *This extension does **not** add or modify colorization of Diff files.  This section is provided only as a friendly suggestion to improve your diff language experience.  These settings are not used by this extension, and can be applied without this extension installed*
