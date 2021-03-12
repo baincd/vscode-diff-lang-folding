@@ -3,7 +3,7 @@
     "name": "diff-lang-folding",
     "displayName": "Diff Folding",
     "description": "Logical code folding for Diff language",
-    "version": "1.2.1",
+    "version": "1.3.0",
     "repository": {
         "url": "https://github.com/baincd/vscode-diff-lang-folding"
     },
